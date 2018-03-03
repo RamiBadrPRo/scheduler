@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scheduler - By badr</title>
+    <script src="res/js/jquery.min.js"></script>
+    <script src="res/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="res/css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        body,html {
+            background-image: url("res/img/rep.jpg");
+            background-repeat: repeat;
+            padding-top : 100px;
+        }
+        .cont {
+            width: 100%;
+            height:auto;
+        }
+        .cont>div {
+            height: 80px;
+            width: 50%;
+            margin-left: 25%;
+            margin-bottom: 50px;
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+            padding: 5px;
+            padding-top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3vw;
+            font-weight: bolder;
+            border-radius: 5px;
+            text-align: center;
+            transition: all 1s;
+        }
+        .cont>div:hover {
+            background-color: black;
+            border: 1px solid white;
+            color: white; 
+            cursor: pointer;
+        }
+    </style>
+    <div class="cont">
+        <div class="existing" onclick="location.href = 'existing.html';" >Ajouter un emploi du temps</div>
+        <div class="show" onclick="location.href = 'show.html';" >Afficher Les meilleurs temps</div>
+    </div>
+</body>
+</html>
